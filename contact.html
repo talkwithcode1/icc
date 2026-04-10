@@ -249,22 +249,26 @@ For any general inquiries, please fill in the following contact form:</p></div>
   <div class="col-md-4">
 
     
-<form>
+<form action="https://formsubmit.co/indiacanadaconsortium@gmail.com" method="POST" id="icc-contact-form">
+    <input type="hidden" name="_subject" value="ICC Contact Form Submission">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://talkwithcode.github.io/icc/thank-you.html">
     <div class="form-group">
-  <label for="usr">First Name*:</label>
-  <input type="text" class="form-control" id="usr">
+  <label for="contact-first-name">First Name*:</label>
+  <input type="text" class="form-control" id="contact-first-name" name="first_name" required>
 </div>
 <div class="form-group">
-  <label for="usr">Last Name*:</label>
-  <input type="text" class="form-control" id="usr">
+  <label for="contact-last-name">Last Name*:</label>
+  <input type="text" class="form-control" id="contact-last-name" name="last_name" required>
 </div>
 <div class="form-group">
-  <label for="usr">Email*:</label>
-  <input type="text" class="form-control" id="usr">
+  <label for="contact-email">Email*:</label>
+  <input type="email" class="form-control" id="contact-email" name="email" required>
 </div>
 <div class="form-group">
-  <label for="usr">Subject*:</label>
-  <input type="text" class="form-control" id="usr">
+  <label for="contact-subject">Subject*:</label>
+  <input type="text" class="form-control" id="contact-subject" name="subject" required>
 </div>
 </form>
 
@@ -272,8 +276,8 @@ For any general inquiries, please fill in the following contact form:</p></div>
   </div>
   <div class="col-md-4">
     <div class="form-group">
-  <label for="comment">Message:</label>
-  <textarea class="form-control" rows="12" id="comment"></textarea>
+  <label for="contact-message">Message:</label>
+  <textarea class="form-control" rows="12" id="contact-message" name="message" form="icc-contact-form" required></textarea>
 </div>
 </div>
 
@@ -284,7 +288,7 @@ For any general inquiries, please fill in the following contact form:</p></div>
   <div class="row">
    <div class="col-md-2"></div>
     <div class="col-md-8">
-<button type="button" class="btn btn-primary btn-lg btn-block" style="background: #FF4040; border:#ffffff 2px solid;">Submit</button>
+<button type="submit" form="icc-contact-form" class="btn btn-primary btn-lg btn-block" style="background: #FF4040; border:#ffffff 2px solid;">Submit</button>
 </div>
  <div class="col-md-2"></div>
 </div>
@@ -303,7 +307,7 @@ For any general inquiries, please fill in the following contact form:</p></div>
 
 <div class="col-md-5"><p>indiacanadaconsortium@gmail.com | Tel +1 613 700 4695</p></div>
 <div class="col-md-4"><p>© 2022 by India Canada Consortium</p></div>
-<div class="col-md-3"><img src="images/facebook.png" class="img-fluid">&nbsp;<img src="images/insta.png" class="img-fluid"></div>
+<div class="col-md-3"><a href="https://www.facebook.com/indiacanadaconsortium/" target="_blank" rel="noopener noreferrer" aria-label="ICC on Facebook"><img src="images/facebook.png" class="img-fluid" alt="Facebook"></a>&nbsp;<a href="https://www.instagram.com/indiacanadaconsortium/" target="_blank" rel="noopener noreferrer" aria-label="ICC on Instagram"><img src="images/insta.png" class="img-fluid" alt="Instagram"></a></div>
 
   </div>
 </div>
