@@ -113,16 +113,41 @@
 .coming-soon h2{
 	font-size:2rem;
 	text-transform:uppercase;
-	padding-top:15px;
-	padding-bottom:15px;
+	margin:0;
+	padding:20px 0;
 	
 
 	
 }
 
+.navbar.navbar-light.bg-light{
+	background-color:#ffffff !important;
+	border-bottom:1px solid #f0f0f0;
+	padding:0;
+}
+
+.navbar .container{
+	min-height:72px;
+}
+
+.navbar-brand{
+	margin:0 28px 0 0;
+	padding:0;
+}
+
+.navbar-brand img{
+	display:block;
+	width:170px;
+	height:auto;
+}
+
+.navbar-nav{
+	align-items:center;
+}
+
 
 .nav-link{
-   padding: .5rem 14px!important;
+   padding: .5rem 12px!important;
 
 }
 
@@ -170,8 +195,8 @@
   }
   
 .youtube-video {
-	  margin-top:40px;
-	  margin-bottom:50px;
+	  margin-top:0;
+	  margin-bottom:28px;
 	  
   }
 
@@ -187,9 +212,9 @@ iframe {
     min-height: 650px;
     background-color: #f2eadf;
     background-image: url(../images/banner-new1.png);
-    background-position: center;
+    background-position: center -70px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto calc(100% + 120px);
 }
   
   .mission h3{
